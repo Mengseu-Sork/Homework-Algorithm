@@ -1,5 +1,5 @@
 while True:
-    word = input("Enter a word: ").strip().lower()
+    word = input("Enter a word: ")
     n = int(input("Enter a number: "))
     if word == "good" and 7 <= n <= 15:
         print("It’s good")
